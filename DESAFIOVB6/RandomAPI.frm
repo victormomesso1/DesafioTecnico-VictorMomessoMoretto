@@ -14,57 +14,57 @@ Begin VB.Form RandomAPI
    Begin VB.TextBox txtNome 
       Enabled         =   0   'False
       Height          =   495
-      Left            =   240
+      Left            =   1080
       TabIndex        =   6
-      Top             =   3480
+      Top             =   3600
       Width           =   1215
    End
    Begin VB.TextBox txtSobrenome 
       Enabled         =   0   'False
       Height          =   495
-      Left            =   1560
+      Left            =   2640
       TabIndex        =   5
-      Top             =   3480
+      Top             =   3600
       Width           =   1215
    End
    Begin VB.TextBox txtEmail 
       Enabled         =   0   'False
       Height          =   495
-      Left            =   2880
+      Left            =   4680
       TabIndex        =   4
-      Top             =   3480
+      Top             =   3720
       Width           =   2775
    End
    Begin VB.TextBox Text2 
       Height          =   375
-      Left            =   2160
+      Left            =   2040
       TabIndex        =   3
       Text            =   "RandomUserAPI"
-      Top             =   1320
-      Width           =   3255
+      Top             =   480
+      Width           =   4935
    End
    Begin VB.TextBox txtGenero 
       Enabled         =   0   'False
       Height          =   495
-      Left            =   360
+      Left            =   1920
       TabIndex        =   1
       Top             =   2040
       Width           =   1575
    End
    Begin VB.CommandButton ConsultarAPI 
       Caption         =   "ConsultarAPI"
-      Height          =   495
-      Left            =   3480
+      Height          =   615
+      Left            =   5280
       TabIndex        =   0
-      Top             =   2160
-      Width           =   1215
+      Top             =   1680
+      Width           =   1455
    End
    Begin MSAdodcLib.Adodc Adodc1 
       Height          =   735
-      Left            =   360
+      Left            =   1080
       Top             =   4920
-      Width           =   7215
-      _ExtentX        =   12726
+      Width           =   8055
+      _ExtentX        =   14208
       _ExtentY        =   1296
       ConnectMode     =   0
       CursorLocation  =   3
@@ -108,11 +108,11 @@ Begin VB.Form RandomAPI
    Begin MSDataGridLib.DataGrid DataGrid1 
       Bindings        =   "RandomAPI.frx":0000
       Height          =   2775
-      Left            =   480
+      Left            =   120
       TabIndex        =   10
       Top             =   5880
-      Width           =   10815
-      _ExtentX        =   19076
+      Width           =   11175
+      _ExtentX        =   19711
       _ExtentY        =   4895
       _Version        =   393216
       HeadLines       =   1
@@ -173,15 +173,15 @@ Begin VB.Form RandomAPI
    Begin VB.Label Label6 
       Caption         =   "Name"
       Height          =   375
-      Left            =   240
+      Left            =   1200
       TabIndex        =   9
-      Top             =   3000
+      Top             =   3120
       Width           =   975
    End
    Begin VB.Label Label5 
       Caption         =   "LastName"
       Height          =   495
-      Left            =   1680
+      Left            =   2760
       TabIndex        =   8
       Top             =   3000
       Width           =   1095
@@ -189,17 +189,17 @@ Begin VB.Form RandomAPI
    Begin VB.Label Label4 
       Caption         =   "Email"
       Height          =   495
-      Left            =   3360
+      Left            =   5280
       TabIndex        =   7
-      Top             =   2880
+      Top             =   3120
       Width           =   1095
    End
    Begin VB.Label Label1 
       Caption         =   "Genero"
       Height          =   375
-      Left            =   360
+      Left            =   2160
       TabIndex        =   2
-      Top             =   1680
+      Top             =   1560
       Width           =   1095
    End
 End
